@@ -1,1 +1,21 @@
-
+{
+  "name": "PreSignal",
+  "description": "브랜드명이나 단어가 존재하기 이전에 이미 연결되어 있던 개념들을 역방향으로 탐색하는 온톨로지 분석 에이전트",
+  "version": "0.1.0",
+  "provider": {
+    "organization": "PreSignal",
+    "url": "https://github.com/presignal"
+  },
+  "skills": [
+    {
+      "id": "reverse-ontology",
+      "name": "Reverse Ontology Analysis",
+      "description": "단어 입력 시 표면연상·잠재개념·원형신호 3개 레이어로 분석",
+      "tags": ["marketing", "ontology", "analysis"],
+      "examples": ["오늘의집", "자유", "배달의민족"]
+    }
+  ],
+  "capabilities": {
+    "streaming": false
+  }
+}
